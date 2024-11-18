@@ -25,5 +25,14 @@ a {
     text-align: center;
 }
 
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #10e3ff,
+    1px 1px 0 #1cfff4;  
+}
 
 
