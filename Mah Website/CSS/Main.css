@@ -4,7 +4,9 @@ background-color: rgb(29, 29, 59); opacity: 70%;
 font-family:'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(10, 221, 193);font-size: 800%;
 }
 
-h2 { text-align: center;}
+h2 { text-align: center;
+font-size: 400%;
+font-style: italic;}
 
 P { text-align: left;
     font-size: x-large;
@@ -19,6 +21,7 @@ margin: 80px;}
 }
 
 .Chapter1 {
+ color: white;
 text-indent: 5%;
 margin: 2%;
 margin-left: 13%;
@@ -80,38 +83,26 @@ a {
     background-image: linear-gradient(to bottom right, rgb(28, 39, 70), rgb(128, 255, 234));
 }
 
+.Gradtwo {
+    background-image: linear-gradient(to bottom , rgb(76, 238, 250),rgb(57, 109, 112), rgb(27, 23, 73));
+}
+
 
 
 
 .tab { position: fixed; 
-top: 0;
-right: 0;  }
+top: 0%;
+right:30%;  }
+
+.lefttab { position: fixed; 
+    top: 0;
+    left: 30%;  }
 
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    
-}
-
-.textbox { font-size: 100%
-; font-family: sans-serif
-; position: absolute;
-top: 50%;
-left: 50%; 
-transform: translate(-50%,-50%);
-}
-span{ display: inline-block; font-weight: bolder; animation: mover 7s linear infinite;
 
 
-}
 
-@keyframes  mover {
 
-    0%{ text-shadow: 0 0 30px rgba(0, 0, 0, 0);}
-    50%{ text-shadow: 0 0 30px rgba(0, 0, 0, 0.30); transform: translateY(30px);}
-    100%{ text-shadow: 0 0 30px rgba(0, 0, 0, 0);}
-}
 
