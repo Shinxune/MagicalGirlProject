@@ -35,6 +35,17 @@ a {
     text-align: center;
 }
 
+.Selection{ text-align: center;
+    color: white;
+font-size: 200%;
+font-style: italic;
+text-shadow:
+-1px -1px 0 #000000,
+1px -1px 0 #0f0c0c,
+-1px 1px 0 #030303,
+1px 1px 0 #000000; ;
+}
+
 .strokeme
 {
     color: white;
