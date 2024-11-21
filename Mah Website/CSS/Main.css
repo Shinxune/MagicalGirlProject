@@ -119,6 +119,10 @@ text-shadow:
     background-image: linear-gradient(to bottom , rgb(76, 238, 250),rgb(57, 109, 112), rgb(27, 23, 73));
 }
 
+.Night2Morn {
+    background-image: linear-gradient(to bottom ,  rgb(27, 23, 73),rgb(112, 116, 108), rgb(219, 218, 157));
+}
+
 
 
 
